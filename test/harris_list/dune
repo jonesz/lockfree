@@ -1,0 +1,7 @@
+(rule
+ (copy ../../src_lockfree/harris_list.ml harris_list.ml))
+
+(test
+ (name test_harris_list)
+ (libraries saturn)
+ (modules test_harris_list))
